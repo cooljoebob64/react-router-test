@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
 import HomePage from "./components/HomePage";
 import MenuPage from "./components/MenuPage";
@@ -13,6 +13,7 @@ class Routes extends Component {
           <Route name="Home" exact path="/" component={HomePage} />
           <Route name="Menu" path="/menu" component={MenuPage} />
           <Route name="About" path="/about" component={AboutPage} />
+          <hr />
         </Router>
       </div>
     );

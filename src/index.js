@@ -4,12 +4,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Routes from "./Routes";
 
-ReactDOM.render(
-  <Routes>
-    <App />
-  </Routes>,
-  document.getElementById("root")
-);
+ReactDOM.render(<Routes />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
